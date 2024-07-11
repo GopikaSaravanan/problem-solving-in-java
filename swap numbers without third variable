@@ -1,0 +1,13 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner scan=new Scanner(System.in);
+       int a=scan.nextInt();
+       int b=scan.nextInt();
+       System.out.println("Values before swapping:"+a+" "+b);
+       a=a-b;
+       b=a+b;
+       a=b-a;
+       System.out.println("Values after swapping:"+a+" "+b);
+    }
+}
