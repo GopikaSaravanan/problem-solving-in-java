@@ -1,0 +1,15 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       Scanner scan=new Scanner(System.in);
+       int a=scan.nextInt();
+       double b=scan.nextInt();
+       double c=(int)a;
+       int d=(int)b;
+       double e=scan.nextInt();
+       float f=(float)e;
+       System.out.println(c);
+       System.out.println(d);
+       System.out.println(f);
+    }
+}
