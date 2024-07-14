@@ -1,0 +1,27 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        double a=scan.nextInt();
+        double b=scan.nextInt();
+        double c=scan.nextInt();
+        double sq_rt=Math.sqrt(a);
+        double power=Math.pow(a,b);
+        double absol=Math.abs(c);
+         double angle = Math.toRadians(45); 
+        double sinValue = Math.sin(angle);
+        double cosValue = Math.cos(angle);
+        double tanValue = Math.tan(angle);
+         double logValue = Math.log(a);
+          double expValue = Math.exp(a);
+          System.out.println(sq_rt);
+          System.out.println(power);
+          System.out.println(absol);
+          System.out.println(angle);
+          System.out.println(sinValue);
+          System.out.println(cosValue);
+          System.out.println(tanValue);
+          System.out.println(logValue);
+          System.out.println(expValue);
+    }
+}
