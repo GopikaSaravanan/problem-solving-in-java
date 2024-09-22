@@ -1,0 +1,30 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        int org=n;
+        int temp=org;
+        int rem1=0,rem2=0,digit=0,ams=0;
+        while(n>0)
+        {
+            rem1=n%10;
+            digit++;
+            n=n/10;
+        }
+        while(org>0)
+        {
+            rem2=org%10;
+            ams+=Math.pow(rem2,digit);
+            org=org/10;
+        }
+        if(temp==ams)
+        {
+            System.out.print("amstrong");
+        }
+        else
+        {
+            System.out.println("not amstrong");
+        }
+    }
+}
